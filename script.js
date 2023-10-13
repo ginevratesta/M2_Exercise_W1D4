@@ -60,7 +60,7 @@ console.log("Crea una variable chiamata 'name' e assegna ad essa il tuo nome, so
 
 let userName = "mi chiamo Ginevra, per gli amici Jin";
 
-console.log(userName + "\nNon ho potuto utilizzare 'name' come variabile perché veniva tagliato, controllando il codice dava DEPRECATED e perciò l'ho cambiata\n");
+console.log(userName + "\nNon ho utilizzato 'name' come variabile perché veniva tagliata, controllando il codice dava DEPRECATED e perciò l'ho cambiata.\n");
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -78,10 +78,10 @@ console.log(numberThree - x + "\n");
  NON HAI BISOGNO DI UN BLOCCO IF/ELSE. E' sufficiente utilizzare console.log().
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("Crea due variabili: 'name1' e 'name2'. Assegna a name1 la stringa 'john', e assegna a name2 la stringa 'John', con la J maiuscola.\nVerifica che name1 sia diversa da name2\n"); 
+console.log("Crea due variabili: 'name1' e 'name2'.\nAssegna a name1 la stringa 'john', e assegna a name2 la stringa 'John', con la J maiuscola.\nVerifica che name1 sia diversa da name2 ed infine, verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase\n(senza cambiare il valore di name2!):\n"); 
 
-let name1 = "john"
-let name2 = "John"
+let name1 = "john";
+let name2 = "John";
 
 console.log(name1 === name2);
 console.log(name1.toLowerCase() === name2.toLowerCase());
