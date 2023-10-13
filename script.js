@@ -16,7 +16,7 @@ console.log("Elenca e descrivi i principali datatype in JavaScript. Prova a spie
 let numberDefinition = "Uno dei principali datatype in JS è Number, rappresenta un numero che può essere molto superiore o molto inferiore a 0.\n";
 let stringDefinition = "String non è altro che un componente testuale, una sequenza di caratteri.\n";
 let booleanDefinition = "Boolean è un'entità logica, un valore che rappresenta se una condizione sia vera o falsa.\n";
-let undefinedDefinition = "Undefined è la risposta che da il terminale, quando si lancia un comando, se la variabile è vuota o compilata in modo scorretto.\n";
+let undefinedDefinition = "Undefined è la risposta che da il terminale, quando si lancia un comando, se la variabile è vuota o compilata in modo incorretto.\n";
 let nullDefinition = "Null è un valore che si da volontariamente alla variabile per renderla vuota.";
 
 console.log(numberDefinition + stringDefinition + booleanDefinition + undefinedDefinition + nullDefinition + "\n"); 
