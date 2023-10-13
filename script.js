@@ -19,7 +19,7 @@ let booleanDefinition = "Boolean è un'entità logica, un valore che rappresenta
 let undefinedDefinition = "Undefined è la risposta che da il terminale, quando si lancia un comando, se la variabile è vuota o compilata in modo scorretto.\n";
 let nullDefinition = "Null è un valore che si da volontariamente alla variabile per renderla vuota.";
 
-console.log(numberDefinition + stringDefinition + booleanDefinition + undefinedDefinition + nullDefinition +"\n"); 
+console.log(numberDefinition + stringDefinition + booleanDefinition + undefinedDefinition + nullDefinition + "\n"); 
 
 /* ESERCIZIO 2
  Descrivi cos'è un oggetto in JavaScript, con parole tue.
@@ -28,7 +28,7 @@ console.log(numberDefinition + stringDefinition + booleanDefinition + undefinedD
 console.log("Descrivi cos'è un oggetto in Javascript:\n");
 
 let objectDefinition = "Un oggetto è un contenitore di proprietà ed ognuna di esse ha un nome e un valore.\n";
- console.log(objectDefinition +"\n");
+ console.log(objectDefinition + "\n");
 
 
 /* ESERCIZIO 3
@@ -40,25 +40,36 @@ console.log("Scrivi il codice necessario ad effettuare un addizione (una somma) 
 let numberOne = 12;
 let numberTwo = 20;
 
-console.log(numberOne+numberTwo+"\n");
+console.log(numberOne+numberTwo + "\n");
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Crea una variable di nome 'x' e assegna ad essa il numero 12:\n");
 
+let x = 12;
+
+console.log(x + "\n");
 
 /* ESERCIZIO 5
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Crea una variable chiamata 'name' e assegna ad essa il tuo nome, sotto forma di stringa\n");
+
+let userName = "mi chiamo Ginevra, per gli amici Jin";
+
+console.log(userName + "\nNon ho potuto utilizzare 'name' come variabile perché veniva tagliato, controllando il codice dava DEPRECATED e perciò l'ho cambiata\n");
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Esegui una sottrazione tra i numeri 4 e la variable 'x' appena dichiarata (che contiene il numero 12):\n");
+
+let numberThree = 4;
+console.log(numberThree - x + "\n");
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -66,5 +77,13 @@ console.log(numberOne+numberTwo+"\n");
  Infine, verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
  NON HAI BISOGNO DI UN BLOCCO IF/ELSE. E' sufficiente utilizzare console.log().
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Crea due variabili: 'name1' e 'name2'. Assegna a name1 la stringa 'john', e assegna a name2 la stringa 'John', con la J maiuscola.\nVerifica che name1 sia diversa da name2\n"); 
+
+let name1 = "john"
+let name2 = "John"
+
+console.log(name1 === name2);
+console.log(name1.toLowerCase() === name2.toLowerCase()+"\n");
+
+console.log("Quest'ultimo quesito l'ho risolto informandomi tramite una ricerca su Google e confrontandomi con i colleghi");
