@@ -10,26 +10,43 @@ REGOLE
 /* ESERCIZIO 1
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino:\n");
+
+let numberDefinition = "Uno dei principali datatype in JS è Number, rappresenta un numero che può essere molto superiore o molto inferiore a 0.\n";
+let stringDefinition = "String non è altro che un componente testuale, una sequenza di caratteri.\n";
+let booleanDefinition = "Boolean è un'entità logica, un valore che rappresenta se una condizione sia vera o falsa.\n";
+let undefinedDefinition = "Undefined è la risposta che da il terminale, quando si lancia un comando, se la variabile è vuota o compilata in modo scorretto.\n";
+let nullDefinition = "Null è un valore che si da volontariamente alla variabile per renderla vuota.";
+
+console.log(numberDefinition + stringDefinition + booleanDefinition + undefinedDefinition + nullDefinition +"\n"); 
 
 /* ESERCIZIO 2
  Descrivi cos'è un oggetto in JavaScript, con parole tue.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Descrivi cos'è un oggetto in Javascript:\n");
+
+let objectDefinition = "Un oggetto è un contenitore di proprietà ed ognuna di esse ha un nome e un valore.\n";
+ console.log(objectDefinition +"\n");
+
 
 /* ESERCIZIO 3
- Scriti il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
+ Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20:\n");
+
+let numberOne = 12;
+let numberTwo = 20;
+
+console.log(numberOne+numberTwo+"\n");
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 5
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
